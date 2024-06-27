@@ -153,4 +153,14 @@ Cria um arquivo tar gzipado do diretório especificado.
 ## `tar -xzf` *nome_arquivo.tar.gz*
 Extrai o conteúdo do arquivo tar gzipado especificado.
 
-## `chmod`
+## `chmod` *permissões* *nome_do_arquivo/diretorio*
+Altera as permissões de acesso para o arquivo ou diretório especificado. Por exemplo, `chmod 755 script.sh` dá permissões de leitura e execução para todos e permissão de escrita apenas para o proprietário.
+
+## `sudo` *comando*
+Permite executar um comando com privilégios de superusuário (root). É necessário para realizar ações que requerem permissões elevadas no sistema.
+
+## `sudo apt install` *nome_do_pacote*
+Instala o pacote especificado usando o gerenciador de pacotes APT (Advanced Package Tool) no Ubuntu e outras distribuições Linux baseadas no Debian. Requer permissões de superusuário.
+
+## `systemctl status` *nome_do_servico*
+Exibe o status atual de um serviço específico gerenciado pelo `systemd`, incluindo informações como se o serviço está ativo, inativo ou falhou.
